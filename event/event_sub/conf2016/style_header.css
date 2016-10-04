@@ -1,0 +1,115 @@
+body{
+  margin: 0;
+  text-align: center;
+  background-color: #DDDDDD;
+  font-family: Verdana,Arial,sans-serif;
+  }
+
+#header{ /*上部*/
+  position: relative;
+  top: 0;
+  height: 170px;
+  width: 100%;
+  overflow: hidden;
+  background-image: url("univ.png");/*上半分の背景*/
+  background-position: -0px -230px;
+  }
+#header .title{
+  color: #FFFFFF;
+  font-size: 40px;
+  font-family: Tahoma,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  text-align: left;
+  margin: 0;
+  padding: 3px 0px 0px 1px;
+  width: 100%;
+  height: 23px;
+  position: absolute;
+  bottom: 80px;
+  left: 30px;
+  text-decoration: none;
+  }
+#header .subtitle{
+  color: #AAAAAA;
+  font-size: 15px;
+  font-family: Tahoma,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: left;
+  margin: 0;
+  padding: 3px 0px 0px 1px;
+  width: 100%;
+  height: 33px;
+  position: absolute;
+  bottom: 90px;
+  left: 32px;
+  text-decoration: none;
+  }
+#header .place{
+  color: #BBBBBB;
+  font-size: 15px;
+  font-family: Tahoma,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: right;
+  margin: 0;
+  padding: 3px 0px 0px 1px;
+  width: 100%;
+  height: 33px;
+  position: absolute;
+  top: 16px;
+  right: 2px;
+  text-decoration: none;
+  }
+#header .date{
+  color: #BBBBBB;
+  font-size: 15px;
+  font-family: Tahoma,sans-serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-align: right;
+  margin: 0;
+  padding: 3px 0px 0px 1px;
+  width: 100%;
+  height: 33px;
+  position: absolute;
+  top: 1px;
+  right: 2px;
+  text-decoration: none;
+  }
+#header .menu{ /*メニュー*/
+  font-size: 15px;
+  padding: 3px 0 1px 0;
+  position: absolute;
+  bottom: 0px;
+  left: 150px;
+  width: 100%/*450px*/;
+  height: 25px;
+  }
+#header .menu ul{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  }
+#header .menu li{
+  margin: 1px 25px 1px 20px; /*メニュー間の間隔*/
+  list-style: none;
+  float: left;
+  }
+#header .menu a:link{/*リンク色*/
+  color: #BBBBFF;
+  text-decoration: none;
+  }
+#header .menu a:visited{/*訪問済みリンク色*/
+  color: #BBBBFF;
+  text-decoration: none;
+  }
+#header .menu a:hover,a:active{/*アクティブリンク色*/
+  color: #FFDDDD;
+  }
+
+
+
+
+
