@@ -1,0 +1,84 @@
+body{
+  margin: 0;
+  text-align: center;
+  font-family: Verdana,Arial,sans-serif;
+  background-color: #DDDDDD; /*背景 色　グラデ非対応用*/
+  /*background-image: url("../images/BG_about.jpg");*/ /*背景 画像*/
+  /*background-repeat: no-repeat;*/
+  /*background-position: 0px 120px;*/
+/*  overflow: auto;*/
+  }
+#page{
+  position: relative;
+  width: 900px;
+  text-align: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
+#contents{ /*コンテンツの部分*/
+  position: relative;
+  margin: 0;
+  width: 840px;
+  padding: 5px 30px 30px 30px;/*全体の余白*/
+  background-color: #FFFFFF; /*背景 色*/
+  /*background-image: linear-gradient(#EEEEEE,#FFFFFF,#FFFFFF,#FFFFFF,#EEEEEE); /*背景 グラデーション*/
+
+  }
+#contents p{ /*コンテンツの文字*/
+  color: #000000;
+  font-size: 15px;
+  line-height: 22px;
+  text-indent: none;
+  letter-spacing: 0.05em;
+  padding: 0.4em;
+  margin: 0 0 0 30px;
+  text-align: justify;           /*両端揃え IE,FireFoxのみ*/
+  text-justify: inter-ideograph; /*両端揃え IE,FireFoxのみ*/
+  }
+#contents a:link{/*リンク色*/
+  color: #667788;
+  text-decoration: none;
+  }
+#contents a:visited{/*訪問済みリンク色*/
+  color: #667788;
+  text-decoration: none;
+  }
+#contents a:hover,a:active{/*アクティブリンク色*/
+  color: #CAEADA;
+  }
+
+
+
+
+#contents h1{ /*コンテンツの見出し1*/
+  color: #000000;
+  font-size: 22px;
+  line-height: 120%;
+  text-indent: none;
+  letter-spacing: 0.05em;
+  padding: 3px 0px 0px 3px;
+  margin:  25px 0px 5px 5px;
+  }
+#contents h2{ /*コンテンツの見出し2*/
+  color: #000000;
+  font-size: 18px;
+  line-height: 120%;
+  text-indent: none;
+  letter-spacing: 0.05em;
+  padding: 0em;
+  margin:  5px 0px 5px 5px;
+  }
+#contents h3{ /*コンテンツの見出し3*/
+  color: #000000;
+  font-size: 16px;
+  line-height: 120%;
+  text-indent: none;
+  letter-spacing: 0.05em;
+  padding: 0em;
+  margin: 5px 0px 5px 5px;
+  }
+
+
